@@ -1,0 +1,323 @@
+html,body{
+	height: 100%;
+	width: 100%;
+  overflow-x: hidden;
+  
+}
+#home{
+  background-color: rgb(00,00,00);
+}
+
+#project{
+  background-color: rgb(00,00,00);
+  color: white;
+}
+
+#assignments{
+  background-color: rgb(00,00,00);
+  color: white;
+  overflow-x: hidden;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.banner{
+	background-color: #A0EADE;
+	margin: 15px;
+	padding: 10px;
+	border: 3px solid #157F1F;
+	box-shadow: 1px 3px 30px 1px #4CB963;
+	outline: 10px 10px #5C6784 groove;
+	text-transform: capitalize;
+	text-shadow: 1px 1px white ;
+	font-family: Cinzel, Fauna One;
+	height: 120px;
+	text-align: right;
+	font-style: oblique;
+}
+
+h1{
+	font-size: 0.7em;
+}
+
+#logo{
+	width: 75px;
+	position: absolute;
+	top: 50px;
+	right: 200px;
+}
+
+.container{
+	border:2px #157F1F solid;
+	position: relative;
+	top: 2px;
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+	background-color: #A0EADE;
+}
+
+.wave{
+	border: #1D263B 1px solid;
+	background-color: white;
+	font-size: 0.9em;
+	height: 25px;
+	overflow: hidden;
+	width: 80%;
+	position:relative;
+	left: 10%;
+	transition: height 4s;
+	display:block;
+}
+
+#l1{
+	border:#5C6784 1px solid;
+	background-image:repeating-linear-gradient(red, green);
+}
+
+.wave:hover{
+	height:90%;
+	top:1px;
+	z-index:1;
+}
+
+.menu{
+	position: absolute;
+	top: 50px;
+	left: 70px;
+	color:#1D263B;
+	font-family:Papyrus, Fauna One;;
+	font-size: 2em;
+	text-shadow: 2px 2px #4CB963;
+	font-style: oblique;
+	width: 100px;
+	overflow: hidden;
+}
+
+.menu a{
+	color: #5C6784;
+	background-color:#A0EADE ;
+	text-shadow: 0px 0px ;
+	font-size: 0.5em;
+	padding: 1px;
+	border: 2px solid #1D263B;
+	display: none;
+}
+
+.menu:hover a{
+	display: block;
+}
+
+.menu a:hover{
+	color: #1D263B;
+	background-color: #4CB963;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 150%;
+  height: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  overflow-x: hidden;
+  overflow-y: scroll;;
+}
+
+.right{
+  width: 50%;
+  position: absolute;
+  right: 5px;
+  color: black;
+}
+
+iframe{
+  width: 48%;
+  height: 600px;
+  border: none;
+  margin: 1px;
+  padding: 3px;
+  overflow-x:scroll ;
+  overflow-y:scroll ;
+}
+
+#trans{
+  width: 100%;
+  height: 600px;
+  border: none;
+  overflow-x: hidden;
+}
+
+#group{
+  text-align: center;
+  width: 1000px;
+  height: 1000px;
+}
+
+
+img{
+  width: 350px;
+  height: 200px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+span{
+  width: 100%;
+  color:white;
+  background-color: black;
+  position: relative;
+  top:0%;
+  left:2%;
+}
+
+.collapse.in, .collapse{
+  height: 820px;
+}
+
+#zom{
+  position: absolute;
+  width:98%;
+  height:100%;
+  margin: 0px;
+  padding:0px;
+  top:0px;
+  left:0px;
+}
+
+.display-3{
+  position: absolute;
+  background-color: rgb(00,00,00);
+}
+
+#story{
+  width:80%;
+  border: 1px solid black;
+}
+#id{
+  width:100px;
+  right:0%;
+}
+
+#board{
+  color:black;
+}
+
+#let{
+  width: 99%; 
+  height: 100%;
+  left:0%;
+  top:0%;
+  position: absolute;
+}
+
+#lol{
+  width: 95%;
+  height: 100%;
+  right:50px;
+  position:absolute;
+  top:200px;
+}
+#seven{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top:500px;
+}
+#eight{
+  width: 90%;
+  height: 100%;
+  left:60px;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top:650px;
+}
+
+#run{
+  overflow-y: scroll;
+  background-color: #000000;
+  position: absolute;
+}
+
+#homeMenu{
+  width: 5%;
+  color:white;
+  background-color: black;
+  position: absolute;
+  top:100%;
+  left:2%;
+}
+
+#aasMenu{
+  width: 5%;
+  color:white;
+  background-color: black;
+  position: absolute;
+  top:14%;
+  left:2%;
+}
+

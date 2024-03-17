@@ -1,0 +1,437 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Projects</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="avatar.png" rel="icon" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body id="project">
+  <div style="text-align: center;">
+    <img src="border.gif" id="let">
+    <div id="lol">
+    <h2>Projects</h2>
+    <br>
+    <h4>In this page, you will explore some of the projects that I do everyday. Press to "Open in Replit Button" and press "Run" to see the code in action</h4>
+    <br>
+    </div>
+    <div style="text-align: left;">
+      <span id="aasMenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+  </div>
+  <!--Java that controled the overlay nav-->
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="AboutMe.html">About Me</a>
+      <a href="Assignments.html">Assignments</a>
+      <a href="Projects.html">Projects</a>
+    <!--  <a href="resources.html">Resources</a>-->
+     <!-- <a href="Vocabulary.html">Vocabulary</a>-->
+    </div>
+  </div>
+
+  <div class="container-fluid mt-3">
+    <div id="eight">
+      <div id="accordion">
+        <!--Collapsable One~Output Make-->
+        <div class="card ">
+        <div class="card-header">
+          <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseOne">
+            Project 1: Silly Sentences
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse bg-warning" data-bs-parent="#accordion">
+          <div class="card-body">
+            <div class="right">
+              <h4><b>Description
+                </b></h4>
+              <br>
+              <h5>
+                I wrote a program that will ask the user for a series of words. Then plug them into a paragraph template.
+              </h5>
+              <br>
+              <br>
+              <h4><b>Reflection
+                </b></h4>
+              <br>
+              <h6>
+                The assignment was easy because we mostly used concatenations and variables. It was good practice for the work we have completed before. To improve the code, I would have added more sentences so the story would have been longer and more engaging. 
+              </h6>
+            </div>
+            <div class="left">
+              <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Project-1-Silly-Sentences?lite=true"></iframe>
+            </div>
+            <br>
+            <br>
+
+          </div>
+        </div>
+      </div>
+
+        <!--Collapsable Two~Variables Make-->
+        <div class="card ">
+          <div class="card-header">
+            <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseTwo">
+              Project 2: Room Area
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse bg-warning" data-bs-parent="#accordion">
+            <div class="card-body">
+              <div class="right">
+                <h4><b>Description
+                </b></h4>
+                <br>
+                <h5>For this lab, you will find the area of an irregularly shaped room with the shape as shown above.<br>
+<img src="#" alt="shape"><br>
+                  Ask the user to enter the values for sides A, B, C, D, and E and print out the total room area using are of a rectangle (length * width) and the area of a right triangle is (0.5 * the base * height).
+
+                </h5>
+                <br>
+                <br>
+                <h4><b>Reflection
+                  </b></h4>
+                <br>
+                <h6> 
+                  I liked this project because it was an adventure to use Math to find the area of the irregular shape. It was difficult to find the area of the shape with a plan of how to divide the shape. After the plan, the assignment went smoothly. 
+                </h6>
+              </div>
+
+              <br>
+              <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Project-2-Room-Area?lite=true"></iframe>
+            </div>
+        </div>
+        </div>
+
+        <!--Collapsable Three-->
+        <div class="card ">
+        <div class="card-header">
+          <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseThree">
+          Project 3: Chatbot
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse bg-warning" data-bs-parent="#accordion">
+          <div class="card-body">
+            <div class="right">
+              <h4><b>Description
+                </b></h4>
+              <br>
+              <h5>
+                You have decided to design a fashion chatbot that helps people pick out their fashion preferences. Your bot can gauge what types of clothes and accessories the user might like.
+
+                Your chatbot should ask the user the following (minimum requirements for the grader) and then give answers depending on the answers the user inputs:
+<br>
+                at least 6 questions<br>
+                at least 3 if-elif-else statements<br>
+                the use of the random module and randomly generated numbers <br>Based on these criteria, some responses will be based on what the user types and some will be based on random numbers.
+
+              </h5>
+              <br>
+              <br>
+              <h4><b>Reflection</b></h4>
+              <br>
+              <h6>
+                It was a stressful project but when it was complete I was happy that the code worked well together. The difficulty was to keep track of the number of variables and what the chatbot will say when the user input yes, no, or any other answer. After completing it, it was fun to talk to the Chatbot. To edit the code, I would have added more questions to talk to the user. 
+              </h6>
+            </div>
+            <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Project-3-Chatbot?lite=true"></iframe>
+          </div>
+        </div>
+      </div>
+
+        <!--Collapsable Four-->
+        <div class="card ">
+        <div class="card-header">
+          <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseFour">
+            Project 4: Divisible by 3
+          </a>
+        </div>
+        <div id="collapseFour" class="collapse bg-warning" data-bs-parent="#accordion">
+          <div class="card-body">
+            <div class="right">
+              <h4><b>Description
+                </b></h4>
+              <br>
+              <h5>
+                Write a program that will ask a user how many numbers they would like to check. Then, using a for loop, prompt the user for a number, and output if that number is divisible by 3 or not. Continue doing this as many times as the user indicated. Once the loop ends, output how many numbers entered were divisible by 3 and how many were not divisible by 3.
+              </h5>
+              <br>
+              <br>
+              <h4><b>Reflection</b></h4>
+              <br>
+              <h6>
+                I enjoyed this project because it was centered around one of my favorite subjects, Math. It was fun to figure out how the code should work. Working with the input function, variable, for loops and the modulus was a good way for me to practice my skills in coding and Math. A challenge was to make the user determine the number of times the program should  check if the number is divisible by 3. To make the code more challenging, I would add an input in which the user can ask what number they can divide by. 
+              </h6>
+            </div>
+            <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Project-4-Divisible-by-3?lite=true"></iframe>
+          </div>
+        </div>
+      </div>
+
+        <!--Collapsable Five-->
+        <div class="card">
+        <div class="card-header">
+          <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseFive">
+            Project 5: Design a Ringtone
+          </a>
+        </div>
+        <div id="collapseFive" class="collapse bg-warning" data-bs-parent="#accordion">
+          <div class="card-body">
+            <div class="right">
+              <h4><b>Description</b></h4>
+              <br>
+              <h5>
+                Create a unique ringtone using python code in a platform called earsketch. The criteria was: <br>
+                must use both of the EarSketch functions fitMedia() and setEffect()
+<br>
+                You must use string operations (concatenation or splicing) to create your own beat, using the EarSketch function makeBeat().
+<br>
+                You must use for loops to add repetition to your ringtone.
+<br>
+                You must use at least one user-defined (custom) function to create musical sections for your ringtone.
+<br>
+                Your ringtone should be a minimum of 60 seconds and a maximum of 90 seconds 
+<br>
+                Your ringtone should include a sound clip found in the EarSketch sound library.
+<br>
+                Your ringtone should appeal to high school students.
+<br>
+                Your ringtone should use efficient code whenever possible 
+
+              </h5>
+            <br>
+            <br>
+              <h4><b>Reflection</b></h4>
+              <br>
+              <h6>
+                I had a blast while working on this project. I wanted to make a funky and unique beat that would stand out when played. I wanted the user to enjoy and dance to their ringtone rather than be annoyed at how it sounds. The hardest part of the project was to find beats that blend well together and conveys my theme well. It was a tough task but I believe that I completed it well. The part I enjoyed the most was hearing the product after every choice I made. I felt proud that I could make a song so well put together. I would like to make a different song that had more planning and thought put into the process of making the song. 
+              </h6>
+            </div>
+            <iframe width="600" height="400" src="https://earsketch.gatech.edu/earsketch2/?sharing=OIGdNjn3Vqw_-5pN7_QZpA&embedded=true"></iframe>
+          </div>
+        </div>
+      </div>
+
+        <!--Collapsable Six-->
+        <div class="card ">
+        <div class="card-header">
+          <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseSix">
+          Project 6: Animation(Storyboard)
+          </a>
+        </div>
+        <div id="collapseSix" class="collapse bg-warning" data-bs-parent="#accordion">
+          <div class="card-body">
+            <div class="text-body">
+              <h4><b>Description</b></h4>
+              <br>
+              <h5>
+                Create a storyboard that will be used for your animation idea
+              </h5>
+                <br>
+                <br>
+                <h4><b>Reflection</b></h4>
+                <BR>
+                <h6> 
+                  I wanted to create a fun animation that had a solid background story and the viewers can understand what it is about. The hardest part was finding a topic to explore. It surprised me that it was very hard to come up with an idea. 
+                </h6>
+            </div>
+            <br>
+            <br>
+            <center>
+              <iframe id="story" src="https://docs.google.com/document/d/e/2PACX-1vTCRU9Ogj5dzLe5lHq5Lfg7Ehl0jm_yfd7yEhkxsAf_yD0G5_gmpbrogLiCY5Mx88a-zwQU6dKibZV7/pub?embedded=true"></iframe>
+              <br>
+            </center>
+            
+          <br>
+          </div>
+        </div>
+      </div>
+
+        <!--Collapsable Seven-->
+        <div class="card ">
+        <div class="card-header">
+          <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseSeven">
+            Project 6: Animation
+          </a>
+        </div>
+        <div id="collapseSeven" class="collapse bg-warning" data-bs-parent="#accordion">
+          <div class="card-body">
+            <div class="right">
+              <h4><b>Description</b></h4>
+              <br>
+              <h5>
+                In this assignment, you will use all of the graphics commands you have learned to create an animated scene. Your program should have a clear theme and tell a story. You may pick any school-appropriate theme that you like.
+<br>
+                <br>
+                The program must include a minimum of:
+<br>
+                <br>
+                5 circles<br>
+                5 polygons<br>
+                5 line commands<br>
+                2 for loops<br>
+                1 global variable
+
+            
+              </h5>
+              <br>
+              <br>
+              <h4><b>Reflection</b></h4>
+              <br>
+              <h6>
+                I had to change the animation concept because I did not have enough time to create the story I wanted to in the initial storyboard. I enjoyed seeing the end product. If I had more time, I would have made a more detailed animation and made it have more content. 
+
+              </h6>
+            </div>
+            <iframe frameboard="1" width="95%" height="500px" src="https://py3.codeskulptor.org/#user308_emr86n4LVq37fc7.py"></iframe>
+          </div>
+        </div>
+      </div>
+
+        <!--Collapsable Eight-->
+        <div class="card ">
+          <div class="card-header">
+            <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseEight">
+              Project 6: Animation(Reflection)
+            </a>
+          </div>
+          <div id="collapseEight" class="collapse bg-warning" data-bs-parent="#accordion">
+            <div class="card-body">
+              <div class="text-body">
+                <h4><b>Description</b></h4>
+                <br>
+                <h5>
+                  Reflection questions were used to reflect on the animation-making process.
+                </h5>
+                  <br>
+                  <br>
+                  <h4><b>Reflection</b></h4>
+                  <BR>
+                  <h6> 
+                    It was nice to reflect on the hard work that I put into the animation. I think that I could have made a more detailed animation and added more content. I think that I could have made a more descriptive story. I think that I could have made the animation more interesting. 
+                    
+                  </h6>
+              </div>
+              <br>
+              <br>
+              <center>
+                <iframe src="https://docs.google.com/document/d/e/2PACX-1vRI6vsehNI3DbdXtEM-qoQFxWAX6Dg6sALo2zW3aaaRz3LwViJkQ4vuqa9ZOyqkU3razKSrjuqzLwYP/pub?embedded=true"></iframe>
+                <br>
+              </center>
+
+            <br>
+            </div>
+          </div>
+        </div>
+
+        <!--Collapsable Nine-->
+        <div class="card ">
+          <div class="card-header">
+            <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseNine">
+              6.1 p5 Generate Color Dots 
+            </a>
+          </div>
+          <div id="collapseNine" class="collapse bg-warning" data-bs-parent="#accordion">
+            <div class="card-body">
+              <div class="right">
+                <h4><b>Description</b></h4>
+                <br>
+                <h5>
+                  We created a website allowing users to draw on a platform using circles. If the user clicks on the screen, it will erase everything on the screen. We did this code using p5.js, a JavaScript library. 
+                </h5>
+              <br>
+              <br>
+                 <h4><b>Reflection</b></h4>
+                <br>
+                <h6>
+                  I enjoyed creating the project and using functions and parameters to make the program possible. To edit the code, I would make the dots smaller so they appear as a pencil stroke and change the cursor's icon to a pencil. I would also make it possible for the user to have a access to the option to erase the entire page, or they control where to erase. Overall, I am proud of my work. 
+                </h6>
+              </div>
+              <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/CMU-Graphics?lite=true"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!--Collapsable Ten-->
+        <div class="card ">
+          <div class="card-header">
+            <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseTen">
+              6.3 CMU Graphics 
+            </a>
+          </div>
+          <div id="collapseTen" class="collapse bg-warning" data-bs-parent="#accordion">
+            <div class="card-body">
+              <div class="right" >
+                <h4><b>Description</b></h4>
+                <br>
+                <h5>
+                  In this program, we explored the Carnegie Mellon School of Computer Science graphics module and created various shapes. The final task was to create an avatar. 
+                </h5>
+                <br>
+                <br>
+                <h4><b>Reflection</b></h4>
+                <br>
+                <h6>
+                  This is one of my favorite projects because I had the opportunity to be as creative as I pleased. I designed a pirate named Hack. It was very difficult to estimate the correct placement of different shapes. 
+                </h6>
+              </div>
+              <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Graphics-63?lite=true"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!--Collapsable Eleven-->
+        <div class="card ">
+          <div class="card-header">
+            <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseEleven">
+             Bouncing Ball
+            </a>
+          </div>
+          <div id="collapseEleven" class="collapse bg-warning" data-bs-parent="#accordion">
+            <div class="card-body">
+              <div class="right" >
+                <h4><b>Description</b></h4>
+                <br>
+                <h5>
+                  This program was to create a game in which the goal is to eliminate all of the bricks with a ball while keeping the ball bouncing. 
+                </h5>
+                <br>
+                <br>
+                <h4><b>Reflection</b></h4>
+                <br>
+                <h6>
+                  I did everything correct in the code but unfortunately, the module was corrupted, which resulted in my work not working. It is disappointing because the brick-breaking game is one of my favorite apps to play. I believed that I was going to get the opportunity to code something I loved, but I was wrong. I enjoyed coding, but it was impossible to get the full experience without seeing the output. 
+                </h6>
+              </div>
+              <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Bouncing-Ball?lite=true"></iframe>
+
+          </div>
+        </div>
+
+
+
+    </div>
+
+      </div>
+
+    <!--Input Make
+    -->
+  </div>
+</body>
+
+</html>
